@@ -17,7 +17,7 @@
     <header>
         <nav class="navbar navbar-dark navbar-expand-lg header-bg">
             <div class="container-fluid">
-                <span class="navbar-brand mb-0 h1">Kerala Youth Front</span>
+                <span class="navbar-brand mb-0 h1">Kerala Congress</span>
             </div>
         </nav>
     </header>
@@ -35,10 +35,11 @@
             </div>
         </div>
         <div class="col-md-6 ">
-            <div class="mt-4 card-background">
-                <div class="card-header head-back">
-                    <h3 style="color: #FFF;">Registration form</h3>
-                </div>
+            <div class="card-header mt-4 head-back">
+                <h3 style="color: #FFF;">Registration form</h3>
+            </div>
+            <div class="">
+                
                 <div class="">
                     <form action="/" method="POST">
                         <hr />
@@ -49,7 +50,7 @@
                                 <div class="">
                                     <div class="form-group">
                                         <label for="textFirstname">First name<span class="text-danger">*</span></label>
-                                        <input type="text" name="fname" placeholder="First name" id="textFirstName"
+                                        <input required type="text" name="fname" placeholder="First name" id="textFirstName"
                                             class="form-control my-3" />
                                     </div>
                                 </div>
@@ -57,13 +58,13 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="textLastname">Last name<span class="text-danger">*</span></label>
-                                    <input type="text" name="lname" placeholder="Last name" id="textLastName"
+                                    <input required type="text" name="lname" placeholder="Last name" id="textLastName"
                                         class="form-control my-3" />
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="textAddress">Address<span class="text-danger">*</span></label>
-                                <textarea name="address" id="textAddress" placeholder="Full Address" rows="3"
+                                <textarea required name="address" id="textAddress" placeholder="Full Address" rows="3"
                                     class="form-control my-3"></textarea>
                             </div>
 
@@ -72,14 +73,14 @@
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <label for="textEmail">Email address</label>
-                                    <input type="email" id="textEmail" name="email" placeholder="Email address"
+                                    <input required type="email" id="textEmail" name="email" placeholder="Email address"
                                         class="form-control my-3">
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <label for="textPhoneNumber">Mobile</label>
-                                    <input type="number" class="form-control my-3" id="textPhoneNumber"
+                                    <input required type="number" class="form-control my-3" id="textPhoneNumber"
                                         placeholder="Phone number" name="mobile">
                                 </div>
                             </div>
@@ -88,13 +89,13 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="textDob">Date of birth</label>
-                                    <input class="form-control my-3" type="date" name="dateofbirth" id="textDob" />
+                                    <input required class="form-control my-3" type="date" name="dateofbirth" id="textDob" />
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="textFatherName">Name of father</label>
-                                    <input type="text" class="form-control my-3" name="fathername" id="textFatherName"
+                                    <input required type="text" class="form-control my-3" name="fathername" id="textFatherName"
                                         placeholder="Name of father">
                                 </div>
                             </div>
